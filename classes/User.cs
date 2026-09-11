@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -8,20 +9,22 @@ namespace mercado_tech.classes
 {
     public abstract class User
     {
-        protected int Id;
+        public int Id { get; protected set; }
         public string Name { get; private set; }
         public string UserName { get; private set; }
         protected string Password { get;private set; }
         public string Email { get; private set; }
+        public mercado_tech.Enum.StatusPerfil Status { get; private set; } = mercado_tech.Enum.StatusPerfil.Ativo;
+
 
         public User(string name, string userName, string password, string email)
         {
-            if (SetName(name))
+            if (!SetName(name))
             {
                 throw new ArgumentException("Não foi possivel criar o Usuario: Este Nome nao é valido , Nome não pode ser nulo e tem que ser maior que 10");
             }
 
-            if (SetUsername(userName))
+            if (!SetUsername(userName))
             {
                 throw new ArgumentException("Não foi possivel criar o usuario: nome de usario nao pode ser nulo");
             }
@@ -37,6 +40,8 @@ namespace mercado_tech.classes
                 throw new ArgumentException("Não foi possivel criar o Usuario: Este email é invalido por favor digite um emial valido");
             }
         }
+
+        public abstract string ExibirDadosAdiconaisdoPerfil();
 
         public bool SetEmail(string email)
         {
@@ -69,13 +74,39 @@ namespace mercado_tech.classes
             return false;
         }
 
-        public bool SetUsername(string username)
+        public bool VerificarSenha(string password)
+        {
+            return this.Password == password;
+        }
+
+        public bool AlterarSenha(string oldPassword , string newPassword)
+        {
+            if (VerificarSenha(oldPassword))
+            {
+                return SetPassword(newPassword);
+            }
+            return false;
+        }
+
+
+        public bool SetUsername( string username)
         {
             if (ValidateInfoUser.Usernameisvalid(username))
             {
+                this.UserName = username;
                 return true;
             }
             return false;
+        }
+
+        public void SuspenderConta()
+        {
+            this.Status = mercado_tech.Enum.StatusPerfil.Suspenso;
+        }
+
+        public void AtivarConta()
+        {
+            this.Status = mercado_tech.Enum.StatusPerfil.Ativo;
         }
     }
 }

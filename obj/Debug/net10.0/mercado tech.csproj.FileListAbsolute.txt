@@ -12,3 +12,4 @@ D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\refint\mercado 
 D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.pdb
 D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.genruntimeconfig.cache
 D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\ref\mercado tech.dll
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.sourcelink.json

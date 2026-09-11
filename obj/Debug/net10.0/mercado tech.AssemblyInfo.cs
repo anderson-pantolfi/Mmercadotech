@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mercado tech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b959ddc6fbeef9ad4b058171ee4277ee9d5d2ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("mercado tech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mercado tech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

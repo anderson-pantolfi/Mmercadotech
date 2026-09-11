@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            classes.User user1 = new classes.Vendedor("anderson moraes", "moraes55", "Almaitaliano@braita26", "andpantmoraesgmail.com", "1458995");
+            classes.UserConsoleUI.ExibirPerfil(user1);
         }
     }
 }

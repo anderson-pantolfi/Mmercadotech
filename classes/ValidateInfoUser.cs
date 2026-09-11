@@ -8,7 +8,7 @@ namespace mercado_tech.classes
     public static partial class ValidateInfoUser
     {
         [GeneratedRegex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")] private static partial Regex EmailRegex();
-        [GeneratedRegex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$\r\n")] private static partial Regex PasswordRegex();
+        [GeneratedRegex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$")] private static partial Regex PasswordRegex();
 
         public static bool EmailIsvalid(string email)
         {
@@ -21,7 +21,7 @@ namespace mercado_tech.classes
 
         public static bool Nameisvalid(string name)
         {
-            if (name.Length > 10 && string.IsNullOrWhiteSpace(name))
+            if (name.Length > 10 && !string.IsNullOrWhiteSpace(name))
             {
                 return true;
             }
