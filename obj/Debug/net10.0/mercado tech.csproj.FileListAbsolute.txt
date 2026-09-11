@@ -1,0 +1,14 @@
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.GeneratedMSBuildEditorConfig.editorconfig
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.AssemblyInfoInputs.cache
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.AssemblyInfo.cs
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.csproj.CoreCompileInputs.cache
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\bin\Debug\net10.0\mercado tech.exe
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\bin\Debug\net10.0\mercado tech.deps.json
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\bin\Debug\net10.0\mercado tech.runtimeconfig.json
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\bin\Debug\net10.0\mercado tech.dll
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\bin\Debug\net10.0\mercado tech.pdb
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.dll
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\refint\mercado tech.dll
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.pdb
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\mercado tech.genruntimeconfig.cache
+D:\estudo\PROGRAMAÇÃO\poo em c#\mercado tech\obj\Debug\net10.0\ref\mercado tech.dll
