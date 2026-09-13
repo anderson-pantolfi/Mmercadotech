@@ -1,31 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-
-namespace mercado_tech.classes
+﻿namespace mercado_tech.classes
 {
     public static class UserConsoleUI
     {
-        public static void ExibirPerfil(User user)
+        public static string LerNome()
         {
-            Console.WriteLine($"Info do usuario {user.UserName}");
-            Console.WriteLine("====================================");
-            Console.WriteLine($"Nome: {user.Name}");
-            Console.WriteLine($"Email: {user.Email}");
-
-            Console.WriteLine(user.ExibirDadosAdiconaisdoPerfil());
+            Console.Write("Digite seu nome completo: ");
+            return Console.ReadLine();
         }
 
-        public static void AtualizarEmail(User user)
+        public static string LerUserName()
         {
-            Console.Write("Digite O email: ");
-            string email = Console.ReadLine();
+            Console.Write("Digite seu nome de usuário: ");
+            return Console.ReadLine();
+        }
 
-            if (user.SetEmail(email))
-            {
-                Console.Write("email foi alterado com sucesso");
-            }
+        public static string LerCNPJ()
+        {
+            Console.Write("Digite seu CNPJ (apenas números ou formatado): ");
+            return Console.ReadLine();
+        }
+
+        public static string LerCpf()
+        {
+            Console.Write("Digite seu CPF (apenas números ou formatado): ");
+            return Console.ReadLine();
+        }
+
+        public static string LerEmail()
+        {
+            Console.Write("Digite seu email: ");
+            return Console.ReadLine();
+        }
+
+        public static string LerSenha()
+        {
+            Console.Write("Digite sua senha: ");
+            return Console.ReadLine();
         }
 
         public static void AtualizarSenha(User user)
@@ -44,6 +54,16 @@ namespace mercado_tech.classes
             {
                 Console.WriteLine("Erro: A senha antiga está incorreta ou a nova senha não atende aos requisitos mínimos.");
             }
+        }
+
+        public static void ExibirPerfil(User user)
+        {
+            Console.WriteLine($"Info do usuario {user.UserName}");
+            Console.WriteLine("====================================");
+            Console.WriteLine($"Nome: {user.Name}");
+            Console.WriteLine($"Email: {user.Email}");
+
+            user.ExibirDadosAdiconaisdoPerfil();
         }
     }
 }

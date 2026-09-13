@@ -41,11 +41,10 @@ namespace mercado_tech.classes
             }
         }
 
-        public abstract string ExibirDadosAdiconaisdoPerfil();
+        public abstract void ExibirDadosAdiconaisdoPerfil();
 
         public bool SetEmail(string email)
         {
-
             if (ValidateInfoUser.EmailIsvalid(email)) 
             {
                 this.Email = email;
