@@ -1,15 +1,22 @@
-﻿using System;
+﻿using System.Linq;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
 namespace mercado_tech.classes
 {
-    public static class UserManager
+    public class UserManager
     {
-        static List<User> UsersList = new List<User>();
 
-        public static void CreateVendedor() 
+        private readonly UserService _Userservice;
+
+        public UserManager(UserService userService)
+        {
+            this._Userservice = userService;
+        }
+
+        public void CadastrarVendedor()
         {
             Console.WriteLine("Cadastrando um novo Vendedor \n\n\n");
             string Name = UserConsoleUI.LerNome();
@@ -20,18 +27,18 @@ namespace mercado_tech.classes
 
             try
             {
-                User user = new Vendedor(Name, Username, Password, Email, Cnpj);
-                UsersList.Add(user);
+                var user = _Userservice.CriarVendedor(Name, Username, Password, Email, Cnpj);
                 Console.WriteLine($"\n[SUCESSO] Vendedor {user.Name}, criado com sucesso!");
 
             }
             catch (ArgumentException ex)
             {
                 Console.WriteLine(ex.Message);
-            } catch (Exception ex) { Console.WriteLine("Ocorreu um erro, pro favor tente novamente mais tarde"); }
+            }
+            catch (Exception ex) { Console.WriteLine("Ocorreu um erro, pro favor tente novamente mais tarde"); }
         }
 
-        public static void CreateCliente()
+        public void CadastrarCliente()
         {
             Console.WriteLine("Cadastrando um novo Vendedor \n\n\n");
             string Name = UserConsoleUI.LerNome();
@@ -42,8 +49,7 @@ namespace mercado_tech.classes
 
             try
             {
-                User user = new Vendedor(Name, Username, Password, Email, Cpf);
-                UsersList.Add(user);
+                var user = _Userservice.CriarCliente(Name, Username, Password, Email, Cpf);
                 Console.WriteLine($"\n[SUCESSO] Cliente {user.Name}, criado com sucesso!");
 
             }
@@ -51,12 +57,13 @@ namespace mercado_tech.classes
             {
                 Console.WriteLine(ex.Message);
             }
-            catch (Exception ex) { Console.WriteLine("Ocorreu um erro, pro favor tente novamente mais tarde"); }
+            catch (Exception ex) { Console.WriteLine("Ocorreu um erro, por favor tente novamente mais tarde"); }
         }
 
-        public static void ExibirTodosOsPerfies()
+        public void ExibirTodosOsPerfies()
         {
-            Console.WriteLine($"\nTotal de usuários: {UsersList.Count}");
+            var UsersList = _Userservice.ObterTodosUser();
+            Console.WriteLine($"\nTotal de usuários: {UsersList.Count()}");
             foreach (var user in UsersList)
             {
                 Console.WriteLine("\n============================================================\n\n");
@@ -67,35 +74,31 @@ namespace mercado_tech.classes
             }
         }
 
-        public static void ExibirTodosOsVendedores()
+        public void ExibirTodosOsVendedores()
         {
-            Console.WriteLine($"\nTotal de usuários: {UsersList.Count}");
+            var UsersList = _Userservice.ObterTodosVendedor();
+            Console.WriteLine($"\nTotal de usuários: {UsersList.Count()}");
             foreach (var user in UsersList)
             {
-                if (user is Vendedor)
-                {
                     Console.WriteLine("\n============================================================\n\n");
 
                     UserConsoleUI.ExibirPerfil(user);
 
                     Console.WriteLine("\n\n============================================================\n");
-                }
             }
         }
 
-        public static void ExibirTodosOsClientes()
+        public void ExibirTodosOsClientes()
         {
-            Console.WriteLine($"\nTotal de usuários: {UsersList.Count}");
+            var UsersList = _Userservice.ObterTodosClintes();
+            Console.WriteLine($"\nTotal de usuários: {UsersList.Count()}");
             foreach (var user in UsersList)
             {
-                if(user is Cliente) 
-                {
                     Console.WriteLine("\n============================================================\n\n");
 
                     UserConsoleUI.ExibirPerfil(user);
 
                     Console.WriteLine("\n\n============================================================\n");
-                }
             }
         }
     }

@@ -1,2 +1,2 @@
 # Mmercadotech
-Sistema Console e-comece desevolvido em C#
+Sistema Tipo Console para contorle de um e-commerce desevolvido em C#, 

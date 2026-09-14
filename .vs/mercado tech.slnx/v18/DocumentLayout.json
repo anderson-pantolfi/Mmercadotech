@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\enum\\statusperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:enum\\statusperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\validateinfouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\validateinfouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\interfaces\\iuserrespositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:interfaces\\iuserrespositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\userconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\userconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\classes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:classes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|d:\\estudo\\programa\u00E7\u00E3o\\poo em c#\\mercado tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D352F7-CAAD-B437-207E-2D777AB5C404}|mercado tech.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T00:50:41.37Z",
               "IsPinned": true,
@@ -56,41 +52,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\User.cs",
-              "RelativeDocumentMoniker": "classes\\User.cs",
-              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\User.cs",
-              "RelativeToolTip": "classes\\User.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T21:45:46.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vendedor.cs",
-              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\Vendedor.cs",
-              "RelativeDocumentMoniker": "classes\\Vendedor.cs",
-              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\Vendedor.cs",
-              "RelativeToolTip": "classes\\Vendedor.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T12:49:17.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\Cliente.cs",
-              "RelativeDocumentMoniker": "classes\\Cliente.cs",
-              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\Cliente.cs",
-              "RelativeToolTip": "classes\\Cliente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCAAAAAzAAAAAAAAAA==",
+              "Title": "StatusPerfil.cs",
+              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Enum\\StatusPerfil.cs",
+              "RelativeDocumentMoniker": "Enum\\StatusPerfil.cs",
+              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Enum\\StatusPerfil.cs",
+              "RelativeToolTip": "Enum\\StatusPerfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T22:24:30.666Z",
+              "WhenOpened": "2026-09-14T03:00:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRespositorio.cs",
+              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Interfaces\\IUserRespositorio.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRespositorio.cs",
+              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\Interfaces\\IUserRespositorio.cs",
+              "RelativeToolTip": "Interfaces\\IUserRespositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T03:00:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserConsoleUI.cs",
+              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserConsoleUI.cs",
+              "RelativeDocumentMoniker": "classes\\UserConsoleUI.cs",
+              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserConsoleUI.cs",
+              "RelativeToolTip": "classes\\UserConsoleUI.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T03:00:10.849Z",
               "EditorCaption": ""
             },
             {
@@ -101,35 +97,22 @@
               "RelativeDocumentMoniker": "classes\\UserManager.cs",
               "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserManager.cs",
               "RelativeToolTip": "classes\\UserManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T13:09:23.411Z",
+              "WhenOpened": "2026-09-14T03:00:03.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValidateInfoUser.cs",
-              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\ValidateInfoUser.cs",
-              "RelativeDocumentMoniker": "classes\\ValidateInfoUser.cs",
-              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\ValidateInfoUser.cs",
-              "RelativeToolTip": "classes\\ValidateInfoUser.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwEYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserService.cs",
+              "RelativeDocumentMoniker": "classes\\UserService.cs",
+              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserService.cs",
+              "RelativeToolTip": "classes\\UserService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T23:44:53.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserConsoleUI.cs",
-              "DocumentMoniker": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserConsoleUI.cs",
-              "RelativeDocumentMoniker": "classes\\UserConsoleUI.cs",
-              "ToolTip": "D:\\estudo\\PROGRAMA\u00C7\u00C3O\\poo em c#\\mercado tech\\classes\\UserConsoleUI.cs",
-              "RelativeToolTip": "classes\\UserConsoleUI.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T23:43:32.815Z",
+              "WhenOpened": "2026-09-14T02:59:57.312Z",
               "EditorCaption": ""
             }
           ]

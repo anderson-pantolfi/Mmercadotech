@@ -1,4 +1,5 @@
 ﻿using mercado_tech.classes;
+using mercado_tech.Interfaces;
 
 namespace mercado_tech
 {
@@ -6,6 +7,11 @@ namespace mercado_tech
     {
         static void Main(string[] args)
         {
+            IUserRespositorio userRepository = new RepositoriodeUsers();
+            UserService userService = new UserService(userRepository);
+            UserManager menager = new UserManager(userService);
+
+
             Console.WriteLine("\n============================================================\n\n");
             Console.WriteLine("Seja Bem vindo ao Sistema de Gereciamento Mercado Tech");
             Console.WriteLine("\n\n============================================================\n");
@@ -36,23 +42,23 @@ namespace mercado_tech
                             Console.WriteLine("Obrigado por Utilizar O mercado Tech\n\n");
                             return;
                         case 1:
-                            UserManager.CreateVendedor();
+                            menager.CadastrarVendedor();
                             break;
                         case 2:
-                            UserManager.CreateCliente();
+                            menager.CadastrarCliente();
                             break;
                         case 3:
                             break;
                         case 4:
                             break;
                         case 5:
-                            UserManager.ExibirTodosOsVendedores();
+                            menager.ExibirTodosOsVendedores();
                             break;
                         case 6:
-                            UserManager.ExibirTodosOsClientes();
+                            menager.ExibirTodosOsClientes();
                             break;
                         case 7:
-                            UserManager.ExibirTodosOsPerfies();
+                            menager.ExibirTodosOsPerfies();
                             break;
                         
                     }

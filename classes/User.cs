@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
+using mercado_tech.Enum;
 
 namespace mercado_tech.classes
 {
@@ -14,7 +15,7 @@ namespace mercado_tech.classes
         public string UserName { get; private set; }
         protected string Password { get;private set; }
         public string Email { get; private set; }
-        public mercado_tech.Enum.StatusPerfil Status { get; private set; } = mercado_tech.Enum.StatusPerfil.Ativo;
+        public StatusPerfil Status { get; private set; } = StatusPerfil.Ativo;
 
 
         public User(string name, string userName, string password, string email)
@@ -100,12 +101,12 @@ namespace mercado_tech.classes
 
         public void SuspenderConta()
         {
-            this.Status = mercado_tech.Enum.StatusPerfil.Suspenso;
+            this.Status = StatusPerfil.Suspenso;
         }
 
         public void AtivarConta()
         {
-            this.Status = mercado_tech.Enum.StatusPerfil.Ativo;
+            this.Status = StatusPerfil.Ativo;
         }
     }
 }
